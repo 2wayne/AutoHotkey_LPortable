@@ -16,8 +16,6 @@ set _outDir=..\..\..
 
 
 ECHO ON
-%_compiler% /in AutoHotkey2ExePortable.ahk /out %_outDir%\AutoHotkey2ExePortable.exe /icon ..\appicon2.ico
-@ECHO.
 %_compiler% /in AutoIt3WindowInfoSpyPortable.ahk /out %_outDir%\AutoIt3WindowInfoSpyPortable.exe /icon ..\appicon3.ico
 @ECHO.
 %_compiler% /in AutoScriptWriterPortable.ahk /out %_outDir%\AutoScriptWriterPortable.exe /icon ..\appicon4.ico
