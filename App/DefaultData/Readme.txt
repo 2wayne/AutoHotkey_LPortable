@@ -1,0 +1,2 @@
+The AutoHotkey.ahk file in this directory is the default script that is run when no parameters are passed to AutoHotkey_LPortable.exe.
+This directory is also set as the %A_WorkingDir%, so by default, any relative paths will be evaluated from wherever this file is.
