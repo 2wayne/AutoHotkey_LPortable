@@ -1,3 +1,4 @@
 Data/
 App/AppInfo/Launcher/Debug.nsh
 App/AutoHotKey_L/AutoHotkey.chw
+App/AutoHotKey_L/Compiler/AutoHotkeySC.bin
