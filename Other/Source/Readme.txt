@@ -15,11 +15,11 @@ USER CONFIGURATION
 ==================
 
 Some configuration in the PortableApps.com Launcher can be overridden by the
-user in an INI file next to AutoHotkey_LPortable.exe called AutoHotkey_LPortable.ini.
+user in an INI file next to AutoHotkeyPortable.exe called AutoHotkeyPortable.ini.
 If you are happy with the default options, it is not necessary, though.  There
 is an example INI included with this package to get you started.  To use it,
-copy AutoHotkey_LPortable.ini from this directory to AutoHotkey_LPortable.ini next to
-AutoHotkey_LPortable.exe. The options in the INI file are as follows:
+copy AutoHotkeyPortable.ini from this directory to AutoHotkeyPortable.ini next to
+AutoHotkeyPortable.exe. The options in the INI file are as follows:
 
    AdditionalParameters=
    DisableSplashScreen=false
