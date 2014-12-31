@@ -3,8 +3,6 @@
 	${If} $bolAppUpgrade == true
 		CustomCodePreInstall_RunningTryAgain:
 		!insertmacro CustomCodePreInstall_CheckRunning AutoHotkey2ExePortable.exe "AutoHotkey2Exe Portable"
-		!insertmacro CustomCodePreInstall_CheckRunning AU3_Spy.exe "AutoIt3 Window Info Spy"
-		!insertmacro CustomCodePreInstall_CheckRunning AutoScriptWriter.exe "Auto Script Writer"
 		${If} true == false
 			CustomCodePreInstall_RunningCancel:
 				Abort
