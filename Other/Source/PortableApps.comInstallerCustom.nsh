@@ -16,3 +16,10 @@
 		MessageBox MB_OKCANCEL|MB_ICONINFORMATION "Please close all instances of ${CustomCodePreInstall_name} and then click OK.  The portable app can not be upgraded while it is running." IDOK CustomCodePreInstall_RunningTryAgain IDCANCEL CustomCodePreInstall_RunningCancel
 	${EndIf}
 !macroend
+
+!macro CustomCodePostInstall
+	${If} ${FileExists} "$INSTDIR\AutoHotkey_LPortable.exe"
+		Delete "$INSTDIR\AutoHotkeyPortable.exe"
+		Rename "$INSTDIR\AutoHotkey_LPortable.exe" "$INSTDIR\AutoHotkeyPortable.exe"
+	${EndIf}
+!macroend
