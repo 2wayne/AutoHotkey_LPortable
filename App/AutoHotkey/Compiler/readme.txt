@@ -1,12 +1,12 @@
-===================================================
-   Important Notes for Ahk2Exe for AutoHotkey_L
-===================================================
+====================================================
+   Important Notes for Ahk2Exe for AutoHotkey 1.1
+====================================================
 
 1. BIN Files
 
 Scripts are "compiled" by combining them with a .bin file containing
 the script interpreter, similar to AutoHotkey.exe.  This version of
-Ahk2Exe requires a .bin file compiled from AutoHotkey_L source code
+Ahk2Exe requires a .bin file compiled from AutoHotkey 1.1 source code
 or a compatible fork.  The official download includes three:
 
   - ANSI 32-bit.bin
@@ -16,7 +16,7 @@ or a compatible fork.  The official download includes three:
 One of these should be selected from the "Base File" drop-down list
 in the GUI.  If "(Default)" is selected, there must be a file named
 AutoHotkeySC.bin in the Ahk2Exe directory.  This is normally created
-by the AutoHotkey_L installer (simply a copy of another bin file).
+by the AutoHotkey installer (simply a copy of another bin file).
 If this file does not exist, Ahk2Exe will attempt to copy it from
 one of the other bin files (typically Unicode 32-bit).
 
@@ -40,5 +40,5 @@ Usage via the GUI should be self-explanatory.  For command-line
 usage, run "Ahk2Exe.exe /?".  For more info, see the documentation:
 
 Offline:  See "ahk2exe" in the AutoHotkey_L help file index.
-Online:   http://l.autohotkey.net/docs/Scripts.htm#ahk2exe
+Online:   http://ahkscript.org/docs/Scripts.htm#ahk2exe
 
