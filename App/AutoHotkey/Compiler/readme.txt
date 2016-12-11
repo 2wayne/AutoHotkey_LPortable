@@ -40,5 +40,5 @@ Usage via the GUI should be self-explanatory.  For command-line
 usage, run "Ahk2Exe.exe /?".  For more info, see the documentation:
 
 Offline:  See "ahk2exe" in the AutoHotkey_L help file index.
-Online:   http://ahkscript.org/docs/Scripts.htm#ahk2exe
+Online:   https://autohotkey.com/docs/Scripts.htm#ahk2exe
 
